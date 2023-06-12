@@ -1,3 +1,7 @@
+---
+version: "2"
 services:
-  devices:
+  test:
+    build: .
+    devices:
      - "/dev/video0:/dev/video0"     # picamera1
