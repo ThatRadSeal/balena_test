@@ -1,0 +1,3 @@
+services:
+  devices:
+     - "/dev/video0:/dev/video0"     # picamera1
